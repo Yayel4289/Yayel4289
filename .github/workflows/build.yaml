@@ -1,4 +1,6 @@
 name: README build
+permissions: 
+  contents: write
 on:
   push:
     branches:
@@ -31,6 +33,9 @@ jobs:
           USER_NAME: ${{ secrets.USER_NAME }}
         run: python today.py
       - name: Commit
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          USER_NAME: ${{ secrets.USER_NAME }}
         run: |-
           git add .
           git diff
