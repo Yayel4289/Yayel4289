@@ -8,14 +8,14 @@ font-display: swap;
 -webkit-size-adjust: 109%;
 size-adjust: 109%;
 }
-.key {fill: #ffa657;}
-.value {fill: #a5d6ff;}
+.key {fill: #EE7700;}
+.value {fill: #BB5500;}
 .addColor {fill: #3fb950;}
 .delColor {fill: #f85149;}
 .cc {fill: #616e7f;}
 text, tspan {white-space: pre;}
 </style>
-<rect width="985px" height="530px" fill="#161b22" rx="15"/>
+<rect width="985px" height="530px" fill="#150000" rx="15"/>
 <text x="15" y="30" fill="#c9d1d9" class="ascii">
 <tspan x="15" y="30">           g@M%@%%@N%Nw,,                   </tspan>
 <tspan x="15" y="50">        ,M*|`||*%gNM=]mM%g||%N,             </tspan>
@@ -44,8 +44,8 @@ text, tspan {white-space: pre;}
 <tspan x="15" y="510">=[' ` . %HH%%%%%H@gkilljjj%kk%".   `'i</tspan>
 </text>
 
-<text x="390" y="30" fill="#c9d1d9">
-<tspan x="390" y="30">Yayel4289</tspan> -———————————————————————————————————————————-—-
+<text x="390" y="30" fill="#150000">
+<tspan x="390" y="30">Yayel4289</tspan> ————————————————————————————————————————————————
 <tspan x="390" y="50" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">Debian Testing</tspan>
 <tspan x="390" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> ...................... </tspan><tspan class="value" id="age_data">22 years, 5 months, 29 days</tspan>
 <tspan x="390" y="90" class="cc">. </tspan><tspan class="key">Interest</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">AI for Healthcare</tspan>
